@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
     body,
@@ -29,15 +30,59 @@
     }
 
     .bgimg {
-        background-image: url("http://daihoc.fpt.edu.vn/media/2017/08/fcamp1-910x604.jpg")
+        background-image: url("https://scontent.fhan2-5.fna.fbcdn.net/v/t1.15752-9/166991649_445544933371720_2014294394478718189_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=ae9488&_nc_ohc=3wvY3aNCw8EAX9kYTDW&_nc_ht=scontent.fhan2-5.fna&oh=a7be2a4481606a352c198be726ad5f2d&oe=6088858D")
     }
 
     .bgimg2 {
-        background-image: url("https://i1.wp.com/hanoi.fpt.edu.vn/wp-content/uploads/2020/11/m4.jpg?resize=770%2C400&ssl=1")
+        background-image: url("https://scontent.fhan2-4.fna.fbcdn.net/v/t1.15752-9/166765188_272787831181105_2389476140960941557_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=ae9488&_nc_ohc=76iVoo0orGAAX97qycm&_nc_ht=scontent.fhan2-4.fna&oh=4268cbc00020c1055fe5088f36585c45&oe=608C342C")
     }
+
 
     .w3-pale-blue {
         background-color: #87ceeb !important;
+    }
+
+    .imagegrid {
+        padding: 0px;
+    }
+
+    .imagegrid2 {
+        padding: 16px;
+    }
+
+    .w3-content {
+        max-width: 1500px !important;
+    }
+
+    .fa {
+        padding-left: 10px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 20%;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        /* padding-left: 10px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px; */
+        background: #3B5998;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #125688;
+        color: white;
     }
 </style>
 
@@ -45,33 +90,27 @@
 
     <!-- Header / Home-->
     <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
-        <div class="w3-display-middle w3-text-white w3-center">
-            <h1 class="w3-jumbo" style="font-size: 120px !important; margin-bottom: 150px;">F-Camp</h1>
-        </div>
-        <div class="w3-display-middle w3-text-white w3-center" style="margin-top: 250px;">
-            <h2>Comming soon</h2>
-            <h2><b>27/03/2021</b></h2>
-        </div>
     </header>
 
     <!-- Navbar (sticky bottom) -->
     <div class="w3-bottom w3-hide-small">
         <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
             <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
-            <a href="#us" style="width:25%" class="w3-bar-item w3-button">The story of F-Camp</a>
-            <a href="#fcamp" style="width:25%" class="w3-bar-item w3-button">F-Camp</a>
-            <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+            <a href="#aboutme" style="width:25%" class="w3-bar-item w3-button">About me</a>
+            <a href="#work" style="width:25%" class="w3-bar-item w3-button">Work</a>
+            <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Contact</a>
         </div>
     </div>
 
-    <div class="w3-container w3-padding-64 w3-pale-blue w3-grayscale-min" id="us">
+    <div class="w3-container w3-padding-64 w3-pale-blue w3-grayscale-min" id="aboutme">
         <div class="w3-modal-content w3-pale-blue">
-            <h1 class="w3-center w3-text-grey"><b>The story of F-Camp</b></h1>
+            <h1 class="w3-center w3-text-grey"><b>About me</b></h1>
             <div class="w3-cell-row">
-                <img class="w3-round w3-grayscale-min w3-container w3-cell"
-                    src="https://daihoc.fpt.edu.vn/media/2017/08/f6-910x604.jpg" style="width: 500px;;margin:32px 0">
+                <img class="w3-round w3-container w3-cell"
+                    src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.15752-9/166765188_272787831181105_2389476140960941557_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=ae9488&_nc_ohc=76iVoo0orGAAX97qycm&_nc_ht=scontent.fhan2-4.fna&oh=4268cbc00020c1055fe5088f36585c45&oe=608C342C"
+                    style="width: 500px;;margin:32px 0">
                 <div class="w3-container w3-cell">
-                    <p><i>To welcome u guys to our University. We decided to make a party call F-camp lorem
+                    <p style="margin-top: 25px; margin-bottom: 5px;"><i>lorem
                             ipsum dolor sit amet, consectetur
                             adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                             ad
@@ -88,75 +127,138 @@
                                 enim ad minim veniam, quis nostrud exercitation ullamco
                                 laboris nisi ut aliquip ex ea commodo consequat.</span></i>
                     </p>
-                    <p style="text-decoration: underline;" onclick="readMore()" id="myBtn">Read more</p>
+                    <p style="margin-top: 5px; text-decoration: underline;" onclick="readMore()" id="myBtn">Read more
+                    </p>
                 </div>
             </div>
-            <br>
-            <p class="w3-center"><a href="#fcamp" class="w3-button w3-black w3-round w3-padding-large w3-large">F-camp
-                    Details</a></p>
+        </div>
+    </div>
+
+    <div class="w3-display-container w3-padding-16 w3-pale-blue w3-grayscale-min w3-center" id="work">
+        <div class="w3-content">
+            <h1 class="w3-jumbo">2D Art & Animation</h1><br>
         </div>
     </div>
 
     <!-- Background photo -->
-    <div class="w3-display-container bgimg2">
-        <div class="w3-display-middle w3-text-white w3-center">
-            <h1 class="w3-jumbo">You Are Invited</h1><br>
-            <h2>Of course..</h2>
-            <h2>Why not..</h2>
+    <div class="w3-display-container w3-pale-blue w3-grayscale-min">
+        <div class="w3-row">
+            <div class="w3-third w3-container imagegrid">
+                <img src="https://scontent.fhan2-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/165973117_1125310607987781_7483963504283691833_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=ae9488&_nc_ohc=ONmHPVXSvMIAX980oEw&_nc_ht=scontent.fhan2-1.fna&tp=7&oh=503abd9b8ca29131223c5d5a50cae3a8&oe=6089B56E"
+                    style="width:100%;">
+            </div>
+            <div class="w3-third w3-container imagegrid">
+                <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.15752-9/s2048x2048/167102066_1225031211227973_7291566790427833264_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=ae9488&_nc_ohc=D3-BIC1UPvUAX82yeBl&_nc_ht=scontent.fhan2-4.fna&tp=7&oh=73274dd0c5c2ffce32805627e937ed24&oe=608C3663"
+                    style="width:100%;">
+            </div>
+            <div class="w3-third w3-container imagegrid">
+                <img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t1.15752-9/s2048x2048/167007837_474383410576456_2475675352784194470_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=ae9488&_nc_ohc=mkih7d5JIYIAX_UoFSg&_nc_ht=scontent.fhan2-5.fna&tp=7&oh=833f2f664772013781cf03d91a8c6811&oe=608AE94E"
+                    style="width:100%;">
+            </div>
         </div>
+        <div class="w3-content">
+            <div class="w3-container imagegrid">
+                <img src="https://scontent.fhan2-3.fna.fbcdn.net/v/t1.15752-9/s2048x2048/164367833_517453606312004_6775112944982598518_n.png?_nc_cat=108&ccb=1-3&_nc_sid=ae9488&_nc_ohc=2S5_6qtjbpsAX9tViEk&_nc_oc=AQnQnc2ObgjP5o2o7M5bFqF6b9cvPtVm7pTNJooqm_ycdTNp2YF1lROedlOjZzNi_To&_nc_ht=scontent.fhan2-3.fna&_nc_tp=30&oh=8ccdbdce7fea076cbca305e7759d44ce&oe=608B48E8"
+                    style="width:100%; margin:16px 0">
+            </div>
+            <div class="w3-container imagegrid">
+                <img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t1.15752-9/s2048x2048/166313863_269371884798629_9200746768075567918_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=ae9488&_nc_ohc=65hnSJGEdVIAX8XOJt1&_nc_ht=scontent.fhan2-5.fna&tp=7&oh=f4794d359e8dc3ef21a1b6b9d2731516&oe=608BEDC7"
+                    style="width:100%; margin:16px 0">
+            </div>
+            <div class="w3-container imagegrid">
+                <img src="https://scontent.fhan2-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/164072073_283662610005739_5537773721914238243_n.png?_nc_cat=101&ccb=1-3&_nc_sid=ae9488&_nc_ohc=59T_3r6j-_kAX_Y5tW8&_nc_ht=scontent.fhan2-1.fna&_nc_tp=30&oh=2c87a6d95c6285c5182311ecf38a3ebe&oe=608AE5D3"
+                    style="width:100%; margin:16px 0">
+            </div>
+            <div class="w3-container imagegrid">
+                <img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t1.15752-9/s2048x2048/166313506_884617415693437_6104570821804311021_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=ae9488&_nc_ohc=tFMbixMupRYAX-M1qKK&_nc_ht=scontent.fhan2-5.fna&tp=7&oh=8910ca58cfafc2770413d7ae242d871c&oe=608C12AA"
+                    style="width:100%; margin:16px 0">
+            </div>
+            <div class="w3-container imagegrid">
+                <img src="https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/s2048x2048/166313309_929217294309842_7300811622346198341_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=ae9488&_nc_ohc=5TblmOnpRnQAX9zE8cl&_nc_ht=scontent.fhan2-6.fna&tp=7&oh=cddced6ce404ae0ebc1be62c328f430c&oe=608C04E1"
+                    style="width:100%; margin:16px 0">
+            </div>
+            <div class="w3-container imagegrid">
+                <img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t1.15752-9/s2048x2048/166506406_2840683416191253_6868985885962635090_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=ae9488&_nc_ohc=ohUPm577IwkAX_GxtYd&_nc_oc=AQmiyo5gkSG8F0XWZrNFDcXjILdSUkez4jW_rBxqEMbHWkd-GRYHL5xzengGFL-Mr5s&_nc_ht=scontent.fhan2-5.fna&tp=7&oh=e7f78812e3ce96a7414d6b30e278913e&oe=608A9373"
+                    style="width:100%; margin:16px 0">
+            </div>
+        </div>
+        <div class="w3-row">
+            <div class="w3-half w3-container imagegrid">
+                <img src="https://cdn.fbsbx.com/v/t59.2708-21/163304603_256573246159859_1193033450541436331_n.gif?_nc_cat=103&fallback=1&ccb=1-3&_nc_sid=041f46&_nc_ohc=ypwkFv4MjV0AX_hcM1f&_nc_ht=cdn.fbsbx.com&oh=cc9f9ffa858caa4d6056685608608f0d&oe=60669B92"
+                    style="width:100%;">
+            </div>
+            <div class="w3-half w3-container imagegrid">
+                <img src="https://cdn.fbsbx.com/v/t59.2708-21/162961622_280889016854175_2518381003066453234_n.gif?_nc_cat=103&fallback=1&ccb=1-3&_nc_sid=041f46&_nc_ohc=xP6NuvRP14kAX-4M4q0&_nc_oc=AQlTgVuK_MDoZb-Kh_rMmPQ_6O7wqrja0rCf-UMip_O9ryVAjZeGAvO2kr14_trBKDg&_nc_ht=cdn.fbsbx.com&oh=83ec68106fca347ef020fdbe86adba99&oe=606656D1"
+                    style="width:100%;">
+            </div>
+        </div>
+        <div class="w3-container imagegrid">
+            <img src="https://cdn.fbsbx.com/v/t59.2708-21/165329031_281269393583269_5349449993565527713_n.gif?_nc_cat=102&fallback=1&ccb=1-3&_nc_sid=041f46&_nc_ohc=4XoPCAlv6CwAX80Bxys&_nc_ht=cdn.fbsbx.com&oh=f163805e846b11c8b559368799da147f&oe=6066B933"
+                style="width:100%; margin:16px 0">
+        </div>
+        <div class="w3-display-container imagegrid w3-center">
+            <video width="1400" height="1000" controls>
+                <source src="./video/HA130092.mp4" type=video/mp4>
+                <source src="./video/HA130092.ogg" type=video/ogg>
+            </video>
+        </div>
+
     </div>
 
-    <div class="w3-container w3-padding-64 w3-pale-blue w3-grayscale-min w3-center" id="fcamp">
+    <div class="w3-display-container w3-padding-32 w3-pale-blue w3-center">
         <div class="w3-content">
-            <h1 class="w3-text-grey"><b>The F-Camp</b></h1>
-            <img class="w3-round-large w3-grayscale-min" src="https://cocdoc.files.wordpress.com/2015/09/163.jpg"
-                style="width:100%;margin:64px 0">
+            <h1 class="w3-text-grey"><b>Photography</b></h1>
             <div class="w3-row">
-                <div class="w3-half">
-                    <h2>When</h2>
-                    <p>F-Camp Party - 2:00pm</p>
-                    <p>Dinner & DJs - 5:00pm</p>
+                <div class="w3-third w3-container imagegrid2">
+                    <img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t1.15752-9/p1080x2048/167604344_1179739045796853_1607202401751400716_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=ae9488&_nc_ohc=7aX_xaYWkskAX-KU-xy&_nc_ht=scontent.fhan2-5.fna&tp=6&oh=98477b14a09ba8effa50ef49478311d0&oe=608C1389"
+                        style="width:100%;">
                 </div>
-                <div class="w3-half">
-                    <h2>Where</h2>
-                    <p>FPT 30m road, FPT University</p>
-                    <p>Alpha building, FPT University</p>
+                <div class="w3-third w3-container imagegrid2">
+                    <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.15752-9/p1080x2048/165223209_2981563225445089_2089638958865380348_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=ae9488&_nc_ohc=KcQnAfPVnnYAX_m_e_f&_nc_ht=scontent.fhan2-4.fna&tp=6&oh=5018100edb09b786414174298a9ed626&oe=608C4F44"
+                        style="width:100%;">
+                </div>
+                <div class="w3-third w3-container imagegrid2">
+                    <img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t1.15752-9/p1080x2048/164705628_370057727445840_5303429670538022399_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=ae9488&_nc_ohc=OOxeRlj6_dEAX_ciivz&_nc_ht=scontent.fhan2-5.fna&tp=6&oh=e790eb2baf72ea177716df60e387f821&oe=608A31F3"
+                        style="width:100%;">
+                </div>
+            </div>
+            <div class="w3-row">
+                <div class="w3-half w3-container imagegrid2">
+                    <img src="https://scontent.fhan2-3.fna.fbcdn.net/v/t1.15752-9/s2048x2048/165274334_943061476482570_398747209860234302_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=ae9488&_nc_ohc=0kFI1exBNeQAX8VyNx0&_nc_ht=scontent.fhan2-3.fna&tp=7&oh=1710569c7d7f0a7855d3c97c56d84d84&oe=60895200"
+                        style="width:100%;">
+                </div>
+                <div class="w3-half w3-container imagegrid2">
+                    <img src="https://scontent.fhan2-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/165981132_1717935858387873_2838967239452159875_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=ae9488&_nc_ohc=lfcCaikOoY0AX9xkUFy&_nc_oc=AQljU4mWNNrhcnnJdP6vD32OZkghetAdFraTtIxo0fyDQsSzbXOzi1t7Jdb3sKjoljQ&_nc_ht=scontent.fhan2-1.fna&tp=7&oh=3aa24ae62afae2dbdf4edd754db7d9a5&oe=608A342C"
+                        style="width:100%;">
+                </div>
+            </div>
+            <div class="w3-row">
+                <div class="w3-third w3-container imagegrid2">
+                    <img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t1.15752-9/p1080x2048/167035444_520306262696456_935794348221204223_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=ae9488&_nc_ohc=RZ__iCOvn3YAX9GQqZ0&_nc_ht=scontent.fhan2-5.fna&tp=6&oh=302349b5a7d27f1efadd6032969e0693&oe=60895E4D"
+                        style="width:100%;">
+                </div>
+                <div class="w3-third w3-container imagegrid2">
+                    <img src="https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/p1080x2048/165152567_745801212965498_2205270665769697564_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=ae9488&_nc_ohc=Ou9okVx85aIAX_IqwbP&_nc_ht=scontent.fhan2-6.fna&tp=6&oh=41adb36ae54acdab60e0ff6d7742193e&oe=608B9530"
+                        style="width:100%;">
+                </div>
+                <div class="w3-third w3-container imagegrid2">
+                    <img src="https://scontent.fhan2-2.fna.fbcdn.net/v/t1.15752-9/p1080x2048/165440034_1598160160377629_3819806291219614395_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=ae9488&_nc_ohc=szZPKvvQz5cAX_dt3fj&_nc_ht=scontent.fhan2-2.fna&tp=6&oh=28a808f876984174eff5fe536ecf0396&oe=608B82B3"
+                        style="width:100%;">
                 </div>
             </div>
         </div>
     </div>
 
     <!-- RSVP section -->
-    <div class="w3-container w3-padding-64 w3-pale-blue w3-center w3-wide" id="rsvp">
-        <h1>HOPE YOU CAN JOIN US!</h1>
-        <p class="w3-large">Kindly Respond By March, 2021</p>
-        <p class="w3-xlarge">
-            <button onclick="document.getElementById('id01').style.display='block'"
-                class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
-        </p>
-    </div>
-
-    <!-- RSVP modal -->
-    <div id="id01" class="w3-modal">
-        <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
-            <div class="w3-container w3-white w3-center">
-                <h1 class="w3-wide">CAN YOU COME?</h1>
-                <p>We really hope you can join us.</p>
-                <form>
-                    <input class="w3-input w3-border" type="text" placeholder="your name" name="name">
-                </form>
-                <p><i>Sincerely, K13 Organizer</i></p>
-                <p><i>People Who Come: 1035</i></p>
-                <div class="w3-row">
-                    <div class="w3-half">
-                        <button onclick="document.getElementById('id01').style.display='none'" type="button"
-                            class="w3-button w3-block w3-green">Attending</button>
-                    </div>
-                    <div class="w3-half">
-                        <button onclick="document.getElementById('id01').style.display='none'" type="button"
-                            class="w3-button w3-block w3-red">Absent</button>
-                    </div>
-                </div>
+    <div class="w3-container w3-pale-blue w3-center w3-wide" id="rsvp">
+        <h1>Find me here!</h1>
+        <div class="w3-row">
+            <div class="w3-half" style="padding-left: 840px;">
+                <a href="https://www.facebook.com/profile.php?id=100008394166865" target="_blank"
+                    class="fa fa-facebook"></a>
+            </div>
+            <div class="w3-half" style="padding-right: 850px;">
+                <a href="https://www.instagram.com/bht.219/" target="_blank" class="fa fa-instagram"></a>
             </div>
         </div>
     </div>
